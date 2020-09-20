@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(properties = "{levelNumber=100}")
+@SpringBootTest
 @AutoConfigureMockMvc
 class DemoSpringConfigApplicationTests {
 	@Autowired
